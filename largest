@@ -1,0 +1,17 @@
+public class LargestOf3 {
+    public static void main(String args[]){
+        int a=20;
+        int b=10;
+        int c=30;
+        if (a>b && a>c){
+            System.out.println("largest is a");
+        }
+        else if (b>c && b>a){
+                System.out.println("largest is b");
+            }
+        else{
+
+                System.out.println("c");
+            }
+            }
+    }
